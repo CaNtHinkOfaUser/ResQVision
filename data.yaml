@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Earthquake', 'Fire', 'Medkit', 'Tsunami']
+
+roboflow:
+  workspace: ishaans-workspace-h4w3e
+  project: idc-jluiq
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ishaans-workspace-h4w3e/idc-jluiq/dataset/12
